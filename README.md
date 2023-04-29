@@ -1,6 +1,6 @@
 # Lenguaje generador de informes
-## Este es un repositorio para la materia de Lenguaje generador de informes, 
-correspondiente al segundo año de la carrera de Analista en Sistemas de la Escuena Normal N°10.
+### Este es un repositorio para la materia de Lenguaje generador de informes, 
+### correspondiente al segundo año de la carrera de Analista en Sistemas de la Escuena Normal N°10.
 
 Descripción
 En esta area, se busca que los estudiantes desarrollen habilidades en el uso de lenguajes web para crear informes y documentos en formato electrónico. 
