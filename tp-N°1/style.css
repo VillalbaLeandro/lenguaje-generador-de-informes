@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -25,15 +30,22 @@ h1{
     color: #7c7070;
 
 }
+
+h2{
+    font-size: 80%;
+}
 .img-container {
-    width: 300px; /* Establece el ancho deseado */
     height: 200px; /* Establece la altura deseada */
-    object-fit: cover;
+    justify-content: center;
+    display: flex;
+    
+    margin: 10px 0 10px 0;
+
 }
 
 .img-container img {
-    max-width: 100%; /* La imagen se ajustará proporcionalmente dentro del contenedor sin deformarse */
-    height: auto; /* La altura se ajustará automáticamente según el ancho de la imagen */
+    object-fit: contain;   /* Lo que hace object-fit es ajustar proporcionalmente la imagen a su contendeor; */
+    width: 100%;
 }
 
 .products{
@@ -43,7 +55,7 @@ h1{
 }
 
 .product-container{
-    
+    justify-content: center;
     width: 281px;
     margin: 20px;
     padding: 15px;
@@ -56,6 +68,16 @@ h1{
 
 .product-container a{
     text-decoration: none;
+}
+.product-container h2{
+    text-align: center;
+}
+
+.price{
+    color: rgb(29, 118, 29);
+    font-weight: 700;
+    text-align: end;
+    padding: 10px;
 }
 
 .product-container:hover{
