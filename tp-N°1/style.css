@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+}
+header a{
+    text-decoration: none;
+    color: #333;
+}
+header a:hover{
+    color: #7c7070;
+    text-decoration: underline;
+}
+
+h1{
+    margin: 50px;
+    color: #7c7070;
+
+}
+.img-container {
+    width: 300px; /* Establece el ancho deseado */
+    height: 200px; /* Establece la altura deseada */
+    object-fit: cover;
+}
+
+.img-container img {
+    max-width: 100%; /* La imagen se ajustará proporcionalmente dentro del contenedor sin deformarse */
+    height: auto; /* La altura se ajustará automáticamente según el ancho de la imagen */
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product-container{
+    
+    width: 281px;
+    margin: 20px;
+    padding: 15px;
+    height: 360px;
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.product-container a{
+    text-decoration: none;
+}
+
+.product-container:hover{
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.18);
+}
+.contact-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.contact-section h2 {
+    color: #333;
+}
+
+.contact-section p {
+    color: #666;
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-section button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
